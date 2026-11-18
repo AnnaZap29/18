@@ -141,7 +141,7 @@ function checkTime() {
 }
 
 /* ---- Countdown ---- */
-function buildCountdown() {
+/*function buildCountdown() {
   const node = el(`<div class="screen countdown">
     ${ICON.heart(64, 'heart animate-pulse')}
     <h1 class="font-serif">Something special <br> is waiting for you...</h1>
@@ -168,7 +168,7 @@ function buildWelcome() {
   const node = el(`<div class="screen welcome"><div class="card">
     <div class="washi-tape"></div>
     <h1 class="font-serif">WELCOME TO YOUR<br>18TH BIRTHDAY ADVENTURE</h1>
-    <p class="font-serif">Dneska tě čeká malé dobrodružství. Několik zastávek, pár úkolů, společné vzpomínky a spousta překvapení. Kam půjdeme dál? To se dozvíš postupně. Are you ready?</p>
+    <p class="font-serif">Dneska si uděláme malou procházku po Brně a třeba na tebe bude něco čekat, kdo ví?</p>
     <button class="btn-start">LET'S START</button>
   </div></div>`);
   $('.btn-start', node).addEventListener('click', () => {
