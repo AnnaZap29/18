@@ -8,7 +8,7 @@ window.APP_CONFIG = {
 
   // Zastávky v pořadí: název, nápověda a kód, který má oslavenkyně zadat
   stops: [
-    { title: 'Brno hlavní nádraží', hint: 'Where every journey begins. The bustling heart of the city.', code: '123' },
+    { title: 'Brno hlavní nádraží', hint: 'Napiš příjmení ze zlaté desky, které vyznačují nějaké zvíře, zadej je s mezerami mezi nima', code: 'Blecha Roháček Slavík Vlk' },
     { title: 'Kašna Parnas', hint: 'A mythical cave in the middle of a cabbage market.', code: '123' },
     { title: 'Kašna Denisovy sady', hint: 'Beautiful views of the city from the gardens.', code: '123' },
     { title: 'Vodopády na Špilberku', hint: 'Hidden waters near the fortress walls.', code: '123' },
