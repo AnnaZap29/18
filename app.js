@@ -183,8 +183,7 @@ function buildWelcome() {
 /* ---- Závěr hry ---- */
 function buildFinale() {
   const node = el(`<div class="screen finale">
-    <h1 class="font-serif animate-bounce">YOU DID IT!</h1>
-    <p class="font-hand">And now... there's one more surprise waiting for you.</p>
+    <h1 class="font-serif animate-bounce">Zvládla si to!</h1>
     <button class="btn-open">Open Surprise</button>
   </div>`);
   node.appendChild(confettiRain());
