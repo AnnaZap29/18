@@ -1,7 +1,7 @@
 // ===== TADY UPRAVUJ OBSAH WEBU (otevři v poznámkovém bloku / editoru) =====
 window.APP_CONFIG = {
   // Kdy se hra odemkne (český čas). Formát: RRRR-MM-DDTHH:MM:SS+01:00 (v létě +02:00)
-  targetDate: '2026-11-18T16:00:00+01:00',
+  targetDate: '2026-11-19T16:00:00+01:00',
 
   // Text dopisu. Nový řádek = \n, odstavec = dva \n\n
   letterText: "My dearest friend,\n\nHappy 18th Birthday! I can't believe we've made it this far. You mean the world to me.\n\nLove always.",
