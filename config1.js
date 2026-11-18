@@ -4,7 +4,7 @@ window.APP_CONFIG = {
   targetDate: '2026-11-19T16:00:00+01:00',
 
   // Text dopisu. Nový řádek = \n, odstavec = dva \n\n
-  letterText: "My dearest friend,\n\nHappy 18th Birthday! I can't believe we've made it this far. You mean the world to me.\n\nLove always.",
+  letterText: "Milá Beri,\n\n prvně ti popřeji: hodně zdraví, štestí a kamarádů k tvým 18. narozeninám.\n Nechcci se tady nějak rozepisovat, protože doufám, že víš jak moc pro mě znamenáš a že by život bez tebe byl o dost těžší a hlavně nudnější. Jsi úžasná, chytrá, nádherná a tvůj styl oblékání I LOVE IT. Na tyto věci nesmíš zapomenout a hlavně nesmíš kvůli něčemu o sobě pochybovat, protože já o tobě nepochybuju ani na milisekundu. Užívej si života dokud můžeš, dělej co tě baví, just LIVE. A pokud se budeš někdy cítit blbě, vzpomeň si, že máš vedle sebe nejlepší kamarádku, která tě podrží ve všem. \n\n Fuj toto znělo hodně jako milostný dopis, bohužel bohudík to je jenom přání ode mě\n\nS lásko Anče",
 
   // Zastávky v pořadí: název, nápověda a kód, který má oslavenkyně zadat
   stops: [
