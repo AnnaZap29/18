@@ -162,7 +162,7 @@ function checkTime() {
   cleanup = () => clearInterval(id);
   return node;
 }
-
+*/
 /* ---- Uvítací obrazovka ---- */
 function buildWelcome() {
   const node = el(`<div class="screen welcome"><div class="card">
