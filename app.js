@@ -141,7 +141,7 @@ function checkTime() {
 }
 
 /* ---- Countdown ---- */
-/*function buildCountdown() {
+function buildCountdown() {
   const node = el(`<div class="screen countdown">
     ${ICON.heart(64, 'heart animate-pulse')}
     <h1 class="font-serif">Something special <br> is waiting for you...</h1>
@@ -162,7 +162,7 @@ function checkTime() {
   cleanup = () => clearInterval(id);
   return node;
 }
-*/
+
 /* ---- Uvítací obrazovka ---- */
 function buildWelcome() {
   const node = el(`<div class="screen welcome"><div class="card">
