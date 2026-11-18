@@ -169,6 +169,7 @@ function buildWelcome() {
     <div class="washi-tape"></div>
     <h1 class="font-serif">WELCOME TO YOUR<br>18TH BIRTHDAY ADVENTURE</h1>
     <p class="font-serif">Dneska si uděláme malou procházku po Brně a třeba na tebe bude něco čekat, kdo ví?</p>
+    <p class="font-serif">Na každé zastávce splň úkol, vyfoť fotku a pokračuj dál</p>
     <button class="btn-start">LET'S START</button>
   </div></div>`);
   $('.btn-start', node).addEventListener('click', () => {
