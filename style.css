@@ -159,3 +159,40 @@ button,input,textarea{font:inherit}
 /* po otevření dopis vyjede nahoru – dáme mu místo, aby se nepřeřízl o horní okraj */
 .envelope{transition:margin-top .6s cubic-bezier(.4,0,.2,1)}
 .envelope.open{margin-top:15rem}
+
+/* ===== Mobilní úpravy ===== */
+
+/* 100vh na telefonu zahrnuje adresní řádek, dvh je přesnější */
+.screen,.game,.letter-screen,.diary,.app,.loading{min-height:100vh;min-height:100dvh}
+
+/* DOPIS: zavřená obálka */
+.letter-screen{justify-content:flex-start;padding:2.5rem 1rem 4rem}
+.letter-screen h2{margin:1rem 0 2rem}
+.envelope{height:14rem;transition:none}
+.letter-content{visibility:hidden}
+
+/* DOPIS: po otevření se z obálky stane normální dopis v běžném toku */
+.envelope.open{height:auto;margin-top:0;cursor:default}
+.envelope.open .env-back,
+.envelope.open .env-flap-l,
+.envelope.open .env-flap-r,
+.envelope.open .envelope-flap{display:none}
+.envelope.open .letter-content{
+  visibility:visible;position:relative;
+  top:auto;bottom:auto;left:auto;right:auto;
+  transform:none;min-height:0;padding:1.5rem 1.25rem;
+  animation:letterIn .6s ease both;
+}
+.envelope.open .letter-content p{font-size:1.35rem;line-height:1.5}
+@keyframes letterIn{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
+
+/* iPhone při zaostření na pole s menším písmem přibližuje stránku */
+.field input{font-size:16px}
+
+/* menší telefony */
+@media (max-width:480px){
+  .welcome h1{font-size:1.5rem}
+  .finale h1{font-size:2.25rem}
+  .diary h1{font-size:1.875rem}
+  .stop-card{padding:1.25rem}
+}
